@@ -1,7 +1,14 @@
-﻿namespace Posterr.Domain.Entities
+﻿using System;
+
+namespace Posterr.Domain.Entities
 {
-    public abstract class BaseEntity<TType>
+    public abstract class BaseEntity
     {
-        public TType Id { get; set; }
+        public Guid Id { get; set; }
+
+        protected BaseEntity()
+        {
+            Id = Guid.NewGuid();
+        }
     }
 }

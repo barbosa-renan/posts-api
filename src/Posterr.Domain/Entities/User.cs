@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Posterr.Domain.Entities
 {
-    public sealed class User : BaseEntity<Guid>
+    public sealed class User : BaseEntity
     {
         public string UserName { get; set; }
         public DateTime CreatedOn { get; set; }
