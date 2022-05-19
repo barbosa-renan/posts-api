@@ -29,6 +29,8 @@ namespace Posterr.WebApi
         {
             services.AddSwagger();
 
+            services.AddApplication();
+
             services.AddControllers();
         }
 

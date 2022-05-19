@@ -9,7 +9,7 @@ namespace Posterr.Domain.Entities
         public DateTime CreatedOn { get; set; }
 
         //EF Relations
-        public ICollection<User> Followers { get; set; }
-        public ICollection<User> Following { get; set; }
+        public ICollection<Post> Posts { get; set; }
+        public ICollection<Follow> Follows { get; set; }
     }
 }
