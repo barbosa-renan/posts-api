@@ -9,17 +9,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Core", "02-Core", "{853E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Infrastructure", "03-Infrastructure", "{7AF26C44-621E-4B40-8FD5-28DAFC5EB12A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Posterr.WebApi", "src\Posterr.WebApi\Posterr.WebApi.csproj", "{7D064ADA-9BB5-475D-B06A-8FB53722061F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Posterr.WebApi", "src\Posterr.WebApi\Posterr.WebApi.csproj", "{7D064ADA-9BB5-475D-B06A-8FB53722061F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Posterr.Application", "src\Posterr.Application\Posterr.Application.csproj", "{C6E36848-3274-4F3C-9CB2-30A30631E12C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Posterr.Application", "src\Posterr.Application\Posterr.Application.csproj", "{C6E36848-3274-4F3C-9CB2-30A30631E12C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Posterr.Domain", "src\Posterr.Domain\Posterr.Domain.csproj", "{35149C06-DDE1-4B1A-A842-B000793C7FF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Posterr.Domain", "src\Posterr.Domain\Posterr.Domain.csproj", "{35149C06-DDE1-4B1A-A842-B000793C7FF4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-Tests", "04-Tests", "{A46793D8-83FA-44A1-B478-3BA7F5A3E297}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Posterr.Tests", "src\Posterr.Tests\Posterr.Tests.csproj", "{81358E31-DAF4-471F-ABA6-CBC4843F0CF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Posterr.Repository", "src\Posterr.Repository\Posterr.Repository.csproj", "{9609AB97-5E81-4080-A244-5BDCEEFC9485}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Posterr.Repository", "src\Posterr.Repository\Posterr.Repository.csproj", "{9609AB97-5E81-4080-A244-5BDCEEFC9485}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Posterr.DomainTests", "src\Posterr.Tests\Posterr.DomainTests.csproj", "{37A2A1BC-A21C-44C9-89A4-4B4EC96DE6EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,14 +39,14 @@ Global
 		{35149C06-DDE1-4B1A-A842-B000793C7FF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35149C06-DDE1-4B1A-A842-B000793C7FF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35149C06-DDE1-4B1A-A842-B000793C7FF4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{81358E31-DAF4-471F-ABA6-CBC4843F0CF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{81358E31-DAF4-471F-ABA6-CBC4843F0CF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{81358E31-DAF4-471F-ABA6-CBC4843F0CF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{81358E31-DAF4-471F-ABA6-CBC4843F0CF8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9609AB97-5E81-4080-A244-5BDCEEFC9485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9609AB97-5E81-4080-A244-5BDCEEFC9485}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9609AB97-5E81-4080-A244-5BDCEEFC9485}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9609AB97-5E81-4080-A244-5BDCEEFC9485}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37A2A1BC-A21C-44C9-89A4-4B4EC96DE6EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37A2A1BC-A21C-44C9-89A4-4B4EC96DE6EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37A2A1BC-A21C-44C9-89A4-4B4EC96DE6EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37A2A1BC-A21C-44C9-89A4-4B4EC96DE6EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,8 +55,8 @@ Global
 		{7D064ADA-9BB5-475D-B06A-8FB53722061F} = {49FF0089-F5BD-4ADF-858B-DA1FD9760468}
 		{C6E36848-3274-4F3C-9CB2-30A30631E12C} = {853ED458-1C33-4CE0-BF22-8132805C90D7}
 		{35149C06-DDE1-4B1A-A842-B000793C7FF4} = {853ED458-1C33-4CE0-BF22-8132805C90D7}
-		{81358E31-DAF4-471F-ABA6-CBC4843F0CF8} = {A46793D8-83FA-44A1-B478-3BA7F5A3E297}
 		{9609AB97-5E81-4080-A244-5BDCEEFC9485} = {7AF26C44-621E-4B40-8FD5-28DAFC5EB12A}
+		{37A2A1BC-A21C-44C9-89A4-4B4EC96DE6EE} = {A46793D8-83FA-44A1-B478-3BA7F5A3E297}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A09F389C-7163-4D1C-8DD8-E9B59818DB4A}
